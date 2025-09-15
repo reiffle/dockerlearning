@@ -6,5 +6,5 @@ COPY dockerlearning /bin/goserver
 # Set a port for the server to run on
 ENV PORT=8991
 
-#Automaticall start process
+#Automatically start process
 CMD ["/bin/goserver"]
